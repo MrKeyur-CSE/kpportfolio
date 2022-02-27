@@ -10,7 +10,6 @@ body {
 }
 
 li, a, button {
-    font-weight: 500;
     font-size: 20px;
     text-decoration: none;
     color: #ffffff;
@@ -48,14 +47,14 @@ header {
 }
 
 .navlink .active {
-    background-color: #0088a9;
+    background-color: #fc6d6d;
     border-radius: 50px;
     padding: 9px 25px;
 }
 
 button {
     padding: 9px 25px;
-    background-color: rgba(0, 136, 169, 1);
+    background-color: #fc6d6d;
     border: none;
     border-radius: 50px;
     cursor: pointer;
@@ -120,7 +119,7 @@ footer {
 }
 
 .socials a:hover i{
-    color: rgba(0, 136, 169, 1);
+    color: #fc6d6d;
 }
 
 .footer-bottom{
@@ -137,7 +136,7 @@ footer {
 }
 
 .footer-bottom span {
-    color: rgba(0, 136, 169, 1);
+    color: #fc6d6d;
     opacity: 1;
     font-weight: 400;
 }

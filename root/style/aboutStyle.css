@@ -10,7 +10,6 @@ body {
 }
 
 li, a, button {
-    font-weight: 500;
     font-size: 20px;
     text-decoration: none;
     color: #ffffff;
@@ -48,14 +47,14 @@ header {
 }
 
 .navlink .active {
-    background-color: #0088a9;
+    background-color: #FC6D6D;
     border-radius: 50px;
     padding: 9px 25px;
 }
 
 button {
     padding: 9px 25px;
-    background-color: rgba(0, 136, 169, 1);
+    background-color: #FC6D6D;
     border: none;
     border-radius: 50px;
     cursor: pointer;
@@ -82,8 +81,10 @@ button {
 .banner-text h1 {
     font-size: 60px;
     font-weight: bold;
+    letter-spacing: 5px;
     margin: 0;
     padding: 5% 0 0 0;
+    color: #FC6D6D;
 }
 
 .banner-text {
@@ -99,8 +100,16 @@ button {
     border-bottom-right-radius: 70px;
     background-color: rgba(0, 0, 0, 0.3);
     color: #ffffff;
-    font-weight: bold;
     border: 5px inset #ffffff;
+}
+
+.banner-text h1 {
+    font-size: 60px;
+    font-weight: bold;
+    letter-spacing: 5px;
+    margin: 0;
+    padding: 5% 0 0 0;
+    color: #FC6D6D;
 }
 
 .banner-text p {
@@ -160,7 +169,7 @@ footer {
 }
 
 .socials a:hover i{
-    color: rgba(0, 136, 169, 1);
+    color: #FC6D6D;
 }
 
 .footer-bottom{
@@ -177,7 +186,7 @@ footer {
 }
 
 .footer-bottom span {
-    color: rgba(0, 136, 169, 1);
+    color: #FC6D6D;
     opacity: 1;
     font-weight: 400;
 }
