@@ -116,6 +116,133 @@ button {
     padding: 5% 10%;
 }
 
+.eduction-section {
+    height: auto;
+    width: 100%;
+    padding-top: 40px;
+    color: #ffffff;
+}
+
+.eduTitle {
+    color: #ffffff;
+}
+
+.eduTitle h1 {
+    font-size: 50px;
+    font-weight: bold;
+    letter-spacing: 5px;
+}
+
+.wrapper {
+    max-width: 1440px;
+    margin: 50px auto;
+    padding: 0 20px;
+    position: relative;
+}
+
+.wrapper .center-line {
+    position: absolute;
+    height: 69%;
+    width: 4px;
+    background-color: #ffffff;
+    left: 50%;
+    top: 20px;
+    transform: translateX(-50%);
+}
+
+.wrapper .row {
+    display: flex;
+    justify-content: flex-start;
+}
+
+.wrapper .row-1 {
+    justify-content: flex-start;
+}
+
+.wrapper .row-2 {
+    justify-content: flex-end;
+}
+
+.wrapper .row-3 {
+    justify-content: flex-start;
+}
+
+.wrapper .row section {
+    background: #FC6D6D;
+    border-radius: 20px;
+    width: calc(50% - 40px);
+    padding: 20px;
+    position: relative;
+}
+
+.wrapper .row section::before {
+    position: absolute;
+    content: "";
+    height: 15px;
+    width: 15px;
+    background: #FC6D6D;
+    top: 28px;
+    z-index: -1;
+    transform: rotate(45deg);
+}
+
+.row-1 section::before {
+    right: -7px;
+}
+
+.row-2 section::before {
+    left: -7px;
+}
+
+.row-3 section::before {
+    right: -7px;
+}
+
+.row section .icon {
+    position: absolute;
+    background-color: #f2f2f2;
+    height: 40px;
+    width: 40px;
+    text-align: center;
+    line-height: 40px;
+    border-radius: 50%;
+    color: #000000;
+    top: 13px;
+    font-size: 20px;
+    box-shadow: 0 0 0 4px #fff, inset 0 2px 0 rgba(0, 0, 0, 0.08), 0 3px 0 4px rgba(0, 0, 0, 0.05);
+}
+
+.row-1 section .icon {
+    right: -60px;
+}
+
+.row-2 section .icon {
+    left: -60px;
+}
+
+.row-3 section .icon {
+    right: -60px;
+}
+
+.row section .details {
+    display: flex;
+    justify-content: space-between;
+}
+
+.row section .details .title {
+    font-size: 28px;
+    font-weight: 600;
+}
+
+.row .mid-section {
+    margin: 10px;
+    font-weight: 600;
+    color: #000000;
+}
+
+.row section p {
+    margin: 10px 0 17px 0;
+}
 
 footer {
     height: auto;
