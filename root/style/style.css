@@ -9,17 +9,17 @@ body {
     background-color: #333333;
 }
 
-li, a, button {
-    font-size: 20px;
-    text-decoration: none;
-    color: #ffffff;
-}
-
 header {
     display: flex;
     justify-content: space-between;
     align-items: center;
     padding: 30px 10%;
+}
+
+li, a, button {
+    font-size: 20px; 
+    text-decoration: none;
+    color: #ffffff;
 }
 
 .logo {

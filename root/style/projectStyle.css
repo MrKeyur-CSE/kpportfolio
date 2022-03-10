@@ -7,6 +7,7 @@
 
 body {
     background-color: #333333;
+    height: 100%;
 }
 
 li, a, button {
@@ -63,8 +64,40 @@ button {
 
 .main-por {
     margin: auto;
-    width: 100%;
+    width: 90%;
     padding: 10px;
+    display: flex;
+}
+
+.card {
+    width: 30%;
+    background-color: aqua;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 500px;
+    cursor: pointer;
+    color: #ffffff;
+    flex: 0.5;
+    margin: 20px;
+    position: relative;
+    -webkit-transition: all 700ms ease-in;
+    border-top-left-radius: 70px;
+    border-bottom-right-radius: 70px;
+}
+
+.card h3 {
+    font-size: 24px;
+    font-weight: 500;
+    position: absolute;
+    bottom: 20px;
+    left: 20px;
+    margin: 0;
+}
+
+.card:hover {
+    box-shadow: 8px 8px 5px rgba(255,255,255,0.7); 
+    color: #000000;
 }
 
 footer {
