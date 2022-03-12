@@ -273,7 +273,7 @@ button {
     color: #000000;
 }
 
-/* Eduction */
+/* Work */
 .work-section {
     height: auto;
     width: 100%;
@@ -300,7 +300,7 @@ button {
 
 .workWrapper .work-center-line {
     position: absolute;
-    height: 40%;
+    height: 45%;
     width: 4px;
     background-color: #ffffff;
     left: 50%;
@@ -392,6 +392,256 @@ button {
 
 .wrow section p span {
     color: #000000;
+}
+
+/* Skill */
+.skill-section {
+    padding-top: 40px;
+    color: #ffffff;
+}
+
+.skillTitle {
+    color: #CE643A;
+}
+
+.skillTitle h1 {
+    font-size: 50px;
+    font-weight: bold;
+    letter-spacing: 5px;
+}
+
+.bar-section {
+    margin: 20px 0;
+}
+
+.skillBar {
+    width: 80%;
+    margin: 60px auto;
+    list-style: none;
+    align-items: flex-start;
+}
+
+.skillBar li {
+    margin: 30px 0;
+}
+
+.skillBar h3 {
+    font-weight: 300;
+    letter-spacing: 8px;
+}
+
+.bar {
+    margin: 5px 0;
+    background: transparent;
+    display: block;
+    height: 5px;
+    border: 1px solid black;
+    border-radius: 3px;
+    overflow: hidden;
+    box-shadow: 0.5px 0.5px 2px white;
+    cursor: pointer;
+}
+
+.bar span {
+    height: 5px;
+    float: left;
+    background: #CE643A;
+}
+
+.html {
+    width: 75%;
+    animation: html 3s;
+}
+
+@keyframes html {
+    0%{
+        width: 0%;
+    }
+    100%{
+        width: 75%;
+    }
+}
+
+.css {
+    width: 70%;
+    animation: css 3s;
+}
+
+@keyframes css {
+    0%{
+        width: 0%;
+    }
+    100%{
+        width: 70%;
+    }
+}
+
+.javascript {
+    width: 60%;
+    animation: javascript 3s;
+}
+
+@keyframes javascript {
+    0%{
+        width: 0%;
+    }
+    100%{
+        width: 60%;
+    }
+}
+
+.jquery {
+    width: 40%;
+    animation: jquery 3s;
+}
+
+@keyframes jquery {
+    0%{
+        width: 0%;
+    }
+    100%{
+        width: 40%;
+    }
+}
+
+.php {
+    width: 55%;
+    animation: php 3s;
+}
+
+@keyframes php {
+    0%{
+        width: 0%;
+    }
+    100%{
+        width: 55%;
+    }
+}
+
+.java {
+    width: 65%;
+    animation: java 3s;
+}
+
+@keyframes java {
+    0%{
+        width: 0%;
+    }
+    100%{
+        width: 65%;
+    }
+}
+
+.xml {
+    width: 70%;
+    animation: xml 3s;
+}
+
+@keyframes xml {
+    0%{
+        width: 0%;
+    }
+    100%{
+        width: 70%;
+    }
+}
+
+.python {
+    width: 30%;
+    animation: python 3s;
+}
+
+@keyframes python {
+    0%{
+        width: 0%;
+    }
+    100%{
+        width: 30%;
+    }
+}
+
+.cloudcomputing {
+    width: 80%;
+    animation: cloudcomputing 3s;
+}
+
+@keyframes cloudcomputing {
+    0%{
+        width: 0%;
+    }
+    100%{
+        width: 80%;
+    }
+}
+
+.figma {
+    width: 75%;
+    animation: figma 3s;
+}
+
+@keyframes figma {
+    0%{
+        width: 0%;
+    }
+    100%{
+        width: 75%;
+    }
+}
+
+.adobexd {
+    width: 65%;
+    animation: adobexd 3s;
+}
+
+@keyframes adobexd {
+    0%{
+        width: 0%;
+    }
+    100%{
+        width: 65%;
+    }
+}
+
+.android {
+    width: 50%;
+    animation: android 3s;
+}
+
+@keyframes android {
+    0%{
+        width: 0%;
+    }
+    100%{
+        width: 50%;
+    }
+}
+
+.ios {
+    width: 30%;
+    animation: ios 3s;
+}
+
+@keyframes ios {
+    0%{
+        width: 0%;
+    }
+    100%{
+        width: 30%;
+    }
+}
+
+.flutter {
+    width: 40%;
+    animation: flutter 3s;
+}
+
+@keyframes flutter {
+    0%{
+        width: 0%;
+    }
+    100%{
+        width: 40%;
+    }
 }
 
 /* FOOTER */
