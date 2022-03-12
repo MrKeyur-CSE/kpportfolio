@@ -47,14 +47,14 @@ li, a, button {
 }
 
 .navlink .active {
-    background-color: #FC6D6D;
+    background-color: #CE643A;
     border-radius: 50px;
     padding: 9px 25px;
 }
 
 button {
     padding: 9px 25px;
-    background-color: #FC6D6D;
+    background-color: #CE643A;
     border: none;
     border-radius: 50px;
     cursor: pointer;
@@ -74,8 +74,8 @@ button {
 
 .banner-text {
     position: absolute;
-    top: 60%;
-    left: 50%;
+    top: 55%;
+    left: 45%;
     transform: translate(-50%,-50%);
     z-index: 5;
     width: 50%;
@@ -93,7 +93,7 @@ button {
 .banner-text .secondary-txt {
     font-size: 30px;
     font-weight: 400;
-    color: #FC6D6D;
+    color: #CE643A;
 }
 
 footer {
@@ -148,7 +148,7 @@ footer {
 }
 
 .socials a:hover i{
-    color: #FC6D6D;
+    color: #CE643A;
 }
 
 .footer-bottom{
@@ -165,7 +165,7 @@ footer {
 }
 
 .footer-bottom span {
-    color: #FC6D6D;
+    color: #CE643A;
     opacity: 1;
     font-weight: 400;
 }

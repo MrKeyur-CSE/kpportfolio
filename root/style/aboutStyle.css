@@ -47,20 +47,21 @@ header {
 }
 
 .navlink .active {
-    background-color: #FC6D6D;
+    background-color: #CE643A;
     border-radius: 50px;
     padding: 9px 25px;
 }
 
 button {
     padding: 9px 25px;
-    background-color: #FC6D6D;
+    background-color: #CE643A;
     border: none;
     border-radius: 50px;
     cursor: pointer;
     transition: all 0.3s ease 0s;
 }
 
+/* MAIN:BODY */
 .main-por {
     margin: auto;
     width: 100%;
@@ -84,7 +85,7 @@ button {
     letter-spacing: 5px;
     margin: 0;
     padding: 5% 0 0 0;
-    color: #FC6D6D;
+    color: #CE643A;
 }
 
 .banner-text {
@@ -109,13 +110,37 @@ button {
     letter-spacing: 5px;
     margin: 0;
     padding: 5% 0 0 0;
-    color: #FC6D6D;
+    color: #CE643A;
 }
 
 .banner-text p {
     padding: 5% 10%;
 }
 
+
+/* Indroduction */
+.introduction-section {
+    height: auto;
+    width: 100%;
+    padding-top: 40px;
+}
+
+.introTitle {
+    color: #CE643A;
+}
+
+.introTitle h1 {
+    font-size: 50px;
+    font-weight: bold;
+    letter-spacing: 5px;
+}
+
+.introTitle p {
+    padding: 2% 5%;
+    color: #ffffff;
+}
+
+/* Eduction */
 .eduction-section {
     height: auto;
     width: 100%;
@@ -124,7 +149,7 @@ button {
 }
 
 .eduTitle {
-    color: #ffffff;
+    color: #CE643A;
 }
 
 .eduTitle h1 {
@@ -142,7 +167,7 @@ button {
 
 .wrapper .center-line {
     position: absolute;
-    height: 69%;
+    height: 80%;
     width: 4px;
     background-color: #ffffff;
     left: 50%;
@@ -168,7 +193,7 @@ button {
 }
 
 .wrapper .row section {
-    background: #FC6D6D;
+    background: #CE643A;
     border-radius: 20px;
     width: calc(50% - 40px);
     padding: 20px;
@@ -180,7 +205,7 @@ button {
     content: "";
     height: 15px;
     width: 15px;
-    background: #FC6D6D;
+    background: #CE643A;
     top: 28px;
     z-index: -1;
     transform: rotate(45deg);
@@ -200,7 +225,7 @@ button {
 
 .row section .icon {
     position: absolute;
-    background-color: #f2f2f2;
+    background-color: #f6f6f6;
     height: 40px;
     width: 40px;
     text-align: center;
@@ -244,6 +269,132 @@ button {
     margin: 10px 0 17px 0;
 }
 
+.row section p span {
+    color: #000000;
+}
+
+/* Eduction */
+.work-section {
+    height: auto;
+    width: 100%;
+    padding-top: 40px;
+    color: #ffffff;
+}
+
+.workTitle {
+    color: #CE643A;
+}
+
+.workTitle h1 {
+    font-size: 50px;
+    font-weight: bold;
+    letter-spacing: 5px;
+}
+
+.workWrapper {
+    max-width: 1440px;
+    margin: 50px auto;
+    padding: 0 20px;
+    position: relative;
+}
+
+.workWrapper .work-center-line {
+    position: absolute;
+    height: 40%;
+    width: 4px;
+    background-color: #ffffff;
+    left: 50%;
+    top: 20px;
+    transform: translateX(-50%);
+}
+
+.workWrapper .wrow {
+    display: flex;
+    justify-content: flex-start;
+}
+
+.workWrapper .wrow-1 {
+    justify-content: flex-start;
+}
+
+.workWrapper .wrow-2 {
+    justify-content: flex-end;
+}
+
+.workWrapper .wrow section {
+    background: #CE643A;
+    border-radius: 20px;
+    width: calc(50% - 40px);
+    padding: 20px;
+    position: relative;
+}
+
+.workWrapper .wrow section::before {
+    position: absolute;
+    content: "";
+    height: 15px;
+    width: 15px;
+    background: #CE643A;
+    top: 28px;
+    z-index: -1;
+    transform: rotate(45deg);
+}
+
+.wrow-1 section::before {
+    right: -7px;
+}
+
+.wrow-2 section::before {
+    left: -7px;
+}
+
+.wrow section .icon {
+    position: absolute;
+    background-color: #f6f6f6;
+    height: 40px;
+    width: 40px;
+    text-align: center;
+    line-height: 40px;
+    border-radius: 50%;
+    color: #000000;
+    top: 13px;
+    font-size: 20px;
+    box-shadow: 0 0 0 4px #fff, inset 0 2px 0 rgba(0, 0, 0, 0.08), 0 3px 0 4px rgba(0, 0, 0, 0.05);
+}
+
+.wrow-1 section .icon {
+    right: -60px;
+}
+
+.wrow-2 section .icon {
+    left: -60px;
+}
+
+.wrow section .workDetails {
+    display: flex;
+    justify-content: space-between;
+}
+
+.wrow section .workDetails .title {
+    font-size: 28px;
+    font-weight: 600;
+}
+
+.wrow .mid-section {
+    margin: 10px;
+    font-weight: 600;
+    color: #000000;
+}
+
+.wrow section p {
+    margin: 10px 0 17px 0;
+}
+
+.wrow section p span {
+    color: #000000;
+}
+
+/* FOOTER */
 footer {
     height: auto;
     width: 100%;
@@ -296,7 +447,7 @@ footer {
 }
 
 .socials a:hover i{
-    color: #FC6D6D;
+    color: #CE643A;
 }
 
 .footer-bottom{
@@ -313,7 +464,7 @@ footer {
 }
 
 .footer-bottom span {
-    color: #FC6D6D;
+    color: #CE643A;
     opacity: 1;
     font-weight: 400;
 }
