@@ -96,14 +96,14 @@ button {
     display: block;
     font-size: 35px;
     font-weight: 200;
-    color: #CE643A;
+    color: #ffffff;
 }
 
 .flowdiagram .patient h2 {
     margin: 15px 0;
-    font-size: 20px;
-    font-weight: 300;
-    color: #ffffff;
+    font-size: 25px;
+    font-weight: 600;
+    color: #CE643A;
     letter-spacing: 5px;
 }
 
@@ -119,9 +119,9 @@ button {
 
 .flowdiagram .doctor h2 {
     margin: 15px 0;
-    font-size: 20px;
-    font-weight: 300;
-    color: #ffffff;
+    font-size: 25px;
+    font-weight: 600;
+    color: #CE643A;
     letter-spacing: 5px;
 }
 
@@ -137,9 +137,9 @@ button {
 
 .flowdiagram .pharmacy h2 {
     margin: 15px 0;
-    font-size: 20px;
-    font-weight: 300;
-    color: #ffffff;
+    font-size: 25px;
+    font-weight: 600;
+    color: #CE643A;
     letter-spacing: 5px;
 }
 
@@ -164,9 +164,98 @@ button {
     display: block;
     font-size: 35px;
     font-weight: 200;
-    color: #CE643A;
+    color: #ffffff;
 }
 
+.canvas .firstcan h2 {
+    margin: 15px 0;
+    font-size: 25px;
+    font-weight: 600;
+    color: #CE643A;
+    letter-spacing: 5px;
+}
+
+.canvas .c1 {
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    width: 70%;
+    height: 90%;
+    position: relative;
+    margin: 25px;
+}
+
+.canvas .secondcan h2 {
+    margin: 15px 0;
+    font-size: 25px;
+    font-weight: 600;
+    color: #CE643A;
+    letter-spacing: 5px;
+}
+
+.canvas .c2 {
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    width: 70%;
+    height: 90%;
+    position: relative;
+    margin: 25px;
+}
+
+.canvas .thirdcan h2 {
+    margin: 15px 0;
+    font-size: 25px;
+    font-weight: 600;
+    color: #CE643A;
+    letter-spacing: 5px;
+}
+
+.canvas .c3 {
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    width: 70%;
+    height: 90%;
+    position: relative;
+    margin: 25px;
+}
+
+.canvas .forthcan h2 {
+    margin: 15px 0;
+    font-size: 25px;
+    font-weight: 600;
+    color: #CE643A;
+    letter-spacing: 5px;
+}
+
+.canvas .c4 {
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    width: 70%;
+    height: 90%;
+    position: relative;
+    margin: 25px;
+}
+
+.canvas .fifthcan h2 {
+    margin: 15px 0;
+    font-size: 25px;
+    font-weight: 600;
+    color: #CE643A;
+    letter-spacing: 5px;
+}
+
+.canvas .c5 {
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    width: 70%;
+    height: 90%;
+    position: relative;
+    margin: 25px;
+}
 
 /* Prototype:CSS */
 .prototype {
@@ -179,7 +268,60 @@ button {
     display: block;
     font-size: 35px;
     font-weight: 200;
-    color: #CE643A;
+    color: #ffffff;
+}
+
+.prototype .firstpart {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 30px 10%;
+}
+
+.prototype .firstpart img {
+    width: 400px;
+}
+
+.prototype .secondpart {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 30px 10%;
+}
+
+.prototype .secondpart img {
+    width: 400px;
+}
+
+.prototype .thirdpart {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 30px 10%;
+}
+
+.prototype .thirdpart img {
+    width: 400px;
+}
+
+.prototype .forthpart {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 30px 10%;
+}
+
+.prototype .forthpart img {
+    width: 400px;
+}
+
+.prototype .fifthpart {
+    align-items: center;
+    padding: 30px 10%;
+}
+
+.prototype .fifthpart img {
+    width: 400px;
 }
 
 /* Footer:CSS */
