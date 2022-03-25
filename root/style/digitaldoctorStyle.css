@@ -337,39 +337,6 @@ button {
     color: #000000;
 }
 
-/* .team .teamPhoto .raj {
-    border-top-left-radius: 45px;
-    border-bottom-right-radius: 45px;
-    width: 300px;
-    margin: 20px;
-}
-
-.team .teamPhoto .raj:hover {
-    box-shadow: 3px 3px 15px #CE643A;
-}
-
-.team .teamPhoto .tapan {
-    border-top-left-radius: 45px;
-    border-bottom-right-radius: 45px;
-    width: 300px;
-    margin: 20px;
-}
-
-.team .teamPhoto .tapan:hover {
-    box-shadow: 3px 3px 15px #CE643A;
-}
-
-.team .teamPhoto .deep {
-    border-top-left-radius: 45px;
-    border-bottom-right-radius: 45px;
-    width: 300px;
-    margin: 20px;
-}
-
-.team .teamPhoto .deep:hover {
-    box-shadow: 3px 3px 15px #CE643A;
-} */
-
 /* Footer:CSS */
 footer {
     height: auto;

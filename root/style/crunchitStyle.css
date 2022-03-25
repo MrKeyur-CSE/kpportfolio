@@ -181,11 +181,7 @@ button {
     margin-top: 10px;
 }
 
-.process .processResource .ppt-download {
-    font-size: 17px;
-}
-
-.process .processResource .paper-download {
+.process .processResource .githubLink {
     font-size: 17px;
 }
 
@@ -302,7 +298,7 @@ button {
 
 .team .teamPhoto {
     margin: auto;
-    width: 90%;
+    width: 100%;
     padding: 10px;
     display: flex;
 }
@@ -312,7 +308,7 @@ button {
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
-    height: 300px;
+    height: 500px;
     cursor: pointer;
     color: #ffffff;
     flex: 0.5;

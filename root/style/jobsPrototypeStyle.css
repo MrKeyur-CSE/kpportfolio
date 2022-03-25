@@ -85,14 +85,14 @@ button {
     box-shadow: 3px 3px 3px #ffffff;
 }
 
-/* Diagram:CSS */
-.diagram {
+/* FLowDiagram:CSS */
+.flowDiagram {
     width: 100%;
     height: auto;
     margin-top: 40px;
 }
 
-.diagram .diagramTitle {
+.flowDiagram .flowDiagramTitle {
     display: block;
     font-size: 35px;
     font-weight: 200;
@@ -100,7 +100,7 @@ button {
     margin-bottom: 25px;
 }
 
-.flowdiagram .crunchItUse {
+.flowDiagram .jobsEmpFlow {
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
@@ -110,22 +110,7 @@ button {
     margin: 25px;
 }
 
-/* Activity Diagram:CSS */
-.activityDiagram {
-    width: 100%;
-    height: auto;
-    margin-top: 40px;
-}
-
-.activityDiagram .activityDiagramTitle {
-    display: block;
-    font-size: 35px;
-    font-weight: 200;
-    color: #CE643A;
-    margin-bottom: 25px;
-}
-
-.activityDiagram .crunchItActive {
+.flowDiagram .jobsFirmFlow {
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
@@ -135,29 +120,71 @@ button {
     margin: 25px;
 }
 
-/* Miro:CSS */
-.miro {
+/* Wireframes:CSS */
+.wireframes {
     width: 100%;
     height: auto;
     margin-top: 40px;
 }
 
-.miro .miroTitle {
+.wireframes .wireframesTitle {
     display: block;
     font-size: 35px;
     font-weight: 200;
     color: #CE643A;
-    margin-bottom: 25px;
 }
 
-.miro .crunchItMiro {
-    background-repeat: no-repeat;
-    background-size: cover;
-    background-position: center;
-    width: 70%;
-    height: 90%;
-    position: relative;
-    margin: 25px;
+.wireframes .firstpart {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 30px 10%;
+}
+
+.wireframes .firstpart img {
+    width: 350px;
+}
+
+.wireframes .secondpart {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 30px 10%;
+}
+
+.wireframes .secondpart img {
+    width: 350px;
+}
+
+.wireframes .thirdpart {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 30px 10%;
+}
+
+.wireframes .thirdpart img {
+    width: 350px;
+}
+
+.wireframes .forthpart {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 30px 10%;
+}
+
+.wireframes .forthpart img {
+    width: 350px;
+}
+
+.wireframes .fifthpart {
+    align-items: center;
+    padding: 30px 10%;
+}
+
+.wireframes .fifthpart img {
+    width: 350px;
 }
 
 /* Prototype:CSS */
@@ -197,23 +224,12 @@ button {
 }
 
 .prototype .thirdpart {
-    display: flex;
     justify-content: space-between;
     align-items: center;
     padding: 30px 10%;
 }
 
 .prototype .thirdpart img {
-    width: 400px;
-}
-
-.prototype .forthpart {
-    display: flex;
-    align-items: center;
-    padding: 30px 10%;
-}
-
-.prototype .forthpart img {
     width: 400px;
 }
 
