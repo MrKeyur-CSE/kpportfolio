@@ -10,7 +10,9 @@ body {
     height: 100%;
 }
 
-li, a, button {
+li,
+a,
+button {
     font-size: 20px;
     text-decoration: none;
     color: #ffffff;
@@ -64,6 +66,18 @@ button {
 
 .main-por {
     margin: auto;
+    width: 100%;
+}
+
+.main-por .title {
+    font-size: 50px;
+    color: #CE643A;
+    font-weight: 500;
+    letter-spacing: 7px;
+}
+
+.project-por {
+    margin: auto;
     width: 90%;
     padding: 10px;
     display: flex;
@@ -96,7 +110,7 @@ button {
 }
 
 .card:hover {
-    box-shadow: 5px 5px 15px #CE643A; 
+    box-shadow: 5px 5px 15px #CE643A;
     color: #000000;
 }
 
@@ -107,7 +121,7 @@ footer {
     color: #ffffff;
 }
 
-.footer-content{
+.footer-content {
     display: flex;
     align-items: center;
     justify-content: center;
@@ -151,11 +165,11 @@ footer {
     transition: color 0.4s ease;
 }
 
-.socials a:hover i{
+.socials a:hover i {
     color: #CE643A;
 }
 
-.footer-bottom{
+.footer-bottom {
     background: #000000;
     width: 100%;
     padding: 20px 0;
